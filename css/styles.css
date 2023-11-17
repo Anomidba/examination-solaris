@@ -66,15 +66,16 @@ h4{
 }
     
 
+
 .name, .latinName {
     color: rgb(220, 203, 203);
 }
 
 .information{
-    width: 30%;
+    width: 35%;
     position: absolute;
-    bottom: 4px;
-    right: 4px;
+    top: 80%;
+    left: 50%;
     background: linear-gradient(90deg, #0C164D 0%, #190B22 100%);
     padding: 10px;
     color: white;
@@ -83,6 +84,7 @@ h4{
 }
 .information.active {
     display:inline;
+   
 }
 
 .latinName {
