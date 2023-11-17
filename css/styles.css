@@ -1,0 +1,91 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #0C164D 0%, #190B22 100%);
+}
+
+.planeter{
+    width: 625px;
+    height: 121px;
+    margin-top: 72px;
+    margin-left: 747px;
+    gap: 16px;
+}
+
+h1{
+    color:rgba(255, 255, 255, 1);
+    font-family: Secular One;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.09em;
+    text-align: right;
+}
+
+h4{
+    color: rgba(255, 208, 41, 1);
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.6em;
+    text-align: right; 
+}
+
+.solsystemet-container{
+    display: flex;
+    align-items: center; 
+} 
+
+.solen{
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 208, 41, 1);
+    border-radius: 1278px;
+    transform: translate(-81%);
+    margin-right: -420px; 
+}
+
+.planeter_solsystemet{
+    width: 0%;
+    height: 0%;
+    display: flex;
+    align-items: center;   
+}
+
+.planeter_solsystemet div {
+    margin-right: 99px; 
+}
+
+.saturnus img{
+   width: 90px;
+   height: 90px;
+   margin-top: -40px;
+   position: absolute;
+
+}
+    
+
+.name, .latinName {
+    color: rgb(220, 203, 203);
+}
+
+.information{
+    width: 30%;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: linear-gradient(90deg, #0C164D 0%, #190B22 100%);
+    padding: 10px;
+    color: white;
+    display: none;
+    border-radius: 10px;
+}
+.information.active {
+    display:inline;
+}
+
+.latinName {
+    color: rgba(255, 208, 41, 1);
+
+}
